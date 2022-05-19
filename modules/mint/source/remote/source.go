@@ -3,9 +3,9 @@ package remote
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
-	"github.com/forbole/juno/v2/node/remote"
+	"github.com/forbole/juno/v3/node/remote"
 
-	mintsource "github.com/forbole/bdjuno/v2/modules/mint/source"
+	mintsource "github.com/forbole/bdjuno/v3/modules/mint/source"
 )
 
 var (
@@ -28,7 +28,7 @@ func NewSource(source *remote.Source, querier minttypes.QueryClient) *Source {
 
 // GetInflation implements mintsource.Source
 func (s Source) GetInflation(height int64) (sdk.Dec, error) {
-	res, err := s.querier.Inflation(s.Ctx, &minttypes.QueryInflationRequest{}, remote.GetHeightRequestHeader(height))
+	res, err := s.querier.Inflation(remote.GetHeightRequestContext(s.Ctx, height), &minttypes.QueryInflationRequest{})
 	if err != nil {
 		return sdk.Dec{}, err
 	}
@@ -38,7 +38,7 @@ func (s Source) GetInflation(height int64) (sdk.Dec, error) {
 
 // Params implements mintsource.Source
 func (s Source) Params(height int64) (minttypes.Params, error) {
-	res, err := s.querier.Params(s.Ctx, &minttypes.QueryParamsRequest{}, remote.GetHeightRequestHeader(height))
+	res, err := s.querier.Params(remote.GetHeightRequestContext(s.Ctx, height), &minttypes.QueryParamsRequest{})
 	if err != nil {
 		return minttypes.Params{}, nil
 	}
