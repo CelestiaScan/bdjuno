@@ -121,8 +121,9 @@ func (suite *DbTestSuite) getBlock(height int64) *juno.Block {
 				EvidenceHash:       nil,
 				ProposerAddress:    tmtypes.Address(addr.Bytes()),
 			},
-			Data:     tmtypes.Data{},
-			Evidence: tmtypes.EvidenceData{},
+			Data: tmtypes.Data{
+				Evidence: tmtypes.EvidenceData{},
+			},
 			LastCommit: &tmtypes.Commit{
 				Height:     height - 1,
 				Round:      1,

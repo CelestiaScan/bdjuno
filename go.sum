@@ -155,8 +155,6 @@ github.com/celestiaorg/celestia-app v0.4.0 h1:s54cE+XmMEtEY7fYR2M0pLPOWJkqp9o9SZ
 github.com/celestiaorg/celestia-app v0.4.0/go.mod h1:w1tcKjP6jT6OnQu0/8mIZdSxUDUF49NTIDXIAtOkj+o=
 github.com/celestiaorg/celestia-core v1.0.1-tm-v0.34.16 h1:5oHY4W127OgrylTkNagd95u3hr9szUbvRiEs7G2yiqc=
 github.com/celestiaorg/celestia-core v1.0.1-tm-v0.34.16/go.mod h1:8n+hOhQO5nehIOWKaXZhC0TihqGxdeROId+HLo9zauM=
-github.com/celestiaorg/cosmos-sdk v1.0.1-sdk-v0.44.2 h1:5kbvoUVSCZO+/FlDGwNnxno2ZF3XmiCN/gwvjMSfYPA=
-github.com/celestiaorg/cosmos-sdk v1.0.1-sdk-v0.44.2/go.mod h1:Qk2OZRgmyDpLDv19ERULo+avN8NGAQJ5QOlNBoxszX8=
 github.com/celestiaorg/go-leopard v0.1.0 h1:28z2EkvKJIez5J9CEaiiUEC+OxalRLtTGJJ1oScfE1g=
 github.com/celestiaorg/go-leopard v0.1.0/go.mod h1:NtO/rjlB8dw2aq7jr06vZFKGvryQcTDXaNHelmPNOAM=
 github.com/celestiaorg/merkletree v0.0.0-20210714075610-a84dc3ddbbe4 h1:CJdIpo8n5MFP2MwK0gSRcOVlDlFdQJO1p+FqdxYzmvc=
@@ -165,8 +163,10 @@ github.com/celestiaorg/nmt v0.8.0 h1:wtX7GRouLbmBe+ffnc8+cOg2UbWteM+Y1imZuZ/EeqU
 github.com/celestiaorg/nmt v0.8.0/go.mod h1:3bqzTj8xKj0DgQUpOgZzoxvtNkC3MS/hTbQ6dn8SIa0=
 github.com/celestiaorg/rsmt2d v0.3.1 h1:qFp6oZXG+QsMO8FqnI34EQ/j+yuJnlddC+nnAkQCq1Y=
 github.com/celestiaorg/rsmt2d v0.3.1/go.mod h1:2Frw4GEYUnVu6Mvlo+CUzuC2/8wn+zLwVVtp+muN6vg=
-github.com/celestiascan/juno/v3 v3.1.1-celestia h1:iKfJI/sM26o5SAJVHm/mCaiujwEkN2LVOeAOQ+vkmVE=
-github.com/celestiascan/juno/v3 v3.1.1-celestia/go.mod h1:qa3CMpLlzC36lNg/vr8uycyXLAVI/Mh3wsc6ec3xbkA=
+github.com/celestiascan/cosmos-sdk v1.0.1-sdk-v0.44.2-1 h1:SDE4my15maHeQZM5J1gaiDDYJWQgisXqS0wtOC8N1OU=
+github.com/celestiascan/cosmos-sdk v1.0.1-sdk-v0.44.2-1/go.mod h1:k1AkmCYHoKoo3iG6W6dAXNFUJuCymgbI84UBD5bKOng=
+github.com/celestiascan/juno/v3 v3.1.1-celestia-v2 h1:dhtrE5l4DNO7qzLHy4pEJOntyvUJsbnnuxGldrLgU4o=
+github.com/celestiascan/juno/v3 v3.1.1-celestia-v2/go.mod h1:5t1qu0A95Lsb1t1AyY77Zsjdwx23KaQN81PpZRBdczU=
 github.com/cenkalti/backoff v2.2.1+incompatible h1:tNowT99t7UNflLxfYYSlKYsBpXdEet03Pg2g16Swow4=
 github.com/cenkalti/backoff v2.2.1+incompatible/go.mod h1:90ReRw6GdpyfrHakVjL/QHaoyV4aDUVVkXQJJJ3NXXM=
 github.com/cenkalti/backoff/v4 v4.1.2/go.mod h1:scbssz8iZGpm3xbr14ovlUdkxfGXNInqkPWOWmG2CLw=
