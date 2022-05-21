@@ -93,11 +93,11 @@ logging:
     format: text
 pricefeed:
   tokens:
-    - name: Celes
+    - name: Tia
       units:
-       - denom: uceles
+       - denom: utia
          exponent: 0
-       - denom: celes
+       - denom: tia
          exponent: 6
          price_id: celestia
 distribution:
