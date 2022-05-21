@@ -49,7 +49,7 @@ If you want to change the home directory of your configuration, refer to [docs](
 Then, update the configuration under `~/.bdjuno/config.yaml` to reflect the following:
 ```yaml
 chain:
-    bech32_prefix: celes
+    bech32_prefix: celestia
     modules: 
       - modules 
       - messages
@@ -93,7 +93,7 @@ logging:
     format: text
 pricefeed:
   tokens:
-    - name: Tia
+    - name: TIA
       units:
        - denom: utia
          exponent: 0
